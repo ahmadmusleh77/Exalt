@@ -1,5 +1,5 @@
 package org.example;
-
+// person calss
 public class Person {
     private String name;
     private int age;
