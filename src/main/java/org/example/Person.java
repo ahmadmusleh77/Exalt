@@ -1,5 +1,4 @@
 package org.example;
-// one task finish
 
 public class Person {
     private String name;
@@ -45,7 +44,8 @@ public class Person {
     public static void main(String[] args) {
      Person person = new Person("John Doe", 20, "Male");
      System.out.println(person.getName());
-        System.out.println(person.editName("Ahmad Musleh"));
+      String N= (person.editName("Ahmad Musleh"));
+        System.out.println("Name: " + N);
     }
 }
 
