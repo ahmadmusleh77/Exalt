@@ -1,5 +1,6 @@
 package org.example;
-// person calss
+// one task finish
+
 public class Person {
     private String name;
     private int age;
@@ -35,10 +36,16 @@ public class Person {
         this.gender = gender;
     }
 
+    public String editName(String name ){
+
+      this.setName(name);
+      return this.name;
+    }
+
     public static void main(String[] args) {
      Person person = new Person("John Doe", 20, "Male");
      System.out.println(person.getName());
-     //hello
+        System.out.println(person.editName("Ahmad Musleh"));
     }
 }
 
